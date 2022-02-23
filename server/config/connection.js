@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/redux-store',
+  process.env.MONGODB_URI || 'mongodb://localhost/Redux-Store',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
